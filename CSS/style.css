@@ -1,0 +1,95 @@
+/* Css Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* main styling for things that dont have class or id */
+html,
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+h1,
+h2,
+h3 {
+	padding-bottom: 20px;
+}
+p {
+	margin: 10px 0;
+}
+/* UTILITY CLASSES; this means can be used over and over/all around */
+.container {
+	margin: auto;
+	max-width: 1100px;
+	padding: 0 20px;
+}
+.text-primary {
+	color: #f7c08a;
+}
+.lead {
+	font-size: 20px;
+}
+.btn {
+	font-size: 18px;
+	color: #fff;
+	background: #333;
+	padding: 18px 20px;
+	border: none;
+	cursor: pointer;
+}
+.btn:hover {
+	background: #f7c08a;
+	color: #333;
+}
+/* Navbar Styling */
+.nav-bar {
+	background-color: #333;
+	color: #fff;
+	height: 70px;
+}
+.nav-bar a {
+	color: #fff;
+}
+.nav-bar h1 {
+	float: left;
+	padding-top: 20px;
+}
+.nav-bar .nav-item {
+	list-style: none;
+	float: right;
+}
+.nav-bar .nav-item li {
+	float: left;
+}
+.nav-bar .nav-item li a {
+	display: block;
+	padding: 20px;
+}
+.nav-bar .nav-item li a:hover,
+.nav-bar .nav-item li a.current {
+	background-color: #444;
+	color: #f7c08a;
+}
+/* Showcase */
+.showcase {
+	background: url("../images/showcase.jpg") no-repeat center center/cover;
+	height: 600px;
+}
+.showcase .showcase-content {
+	color: #fff;
+	text-align: center;
+	padding-top: 170px;
+}
+.showcase .showcase-content h1 {
+	font-size: 60px;
+	line-height: 1.2em;
+}
+.showcase .showcase-content p {
+	line-height: 1.7em;
+	padding-bottom: 20px;
+}
